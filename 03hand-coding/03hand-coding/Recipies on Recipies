@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Carli Collins"> 
+    <meta name="Learn about the Declaration of Independence of the United States"> 
+    <title> Americas founding documents: Signers </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" intail-scale=1> 
+  </head>
+<body>
+<!--Recipies Page List and Search info -->
+<header> 
+<h1> Our Favorite Recipies </h1>
+<p> Tried, True, & Delicious </p>
+
+
+<!--Start of my page signers -->
+<nav> 
+  <ul> 
+      <li> <a href="Index.html">Declaration of Independence </a></li>
+      <li><a href="signers.html"> Who Were the Founders?</a> </li>
+  </ul>
+</nav>
+<h1> Who were the signers</h1>
+<h2> Georgia</h2>
+<ol>
+   <li> Buttin Gwinnett</li>
+   <li> Lyman hall</li>
+   <li> Geroge Walton</li>
+</ol>
+<h2> Massachusetts</h2>
+<ol> 
+  <li> John Adams</li>
+  <li> Samuel Adams</li>
+  <Li><a href="https://en.wikipedia.org/wiki/John_Hancock" target="_blank">John Hancock</a></Li>
+</ol>
+
+<dl>
+  <dt> Who signed from North Carolina</dt>
+     <dd> William Hooper, <b>Joseph Hewes</b>, John Penn</dd>
+  <dt> Who signed from South Carolina</dt>
+      <dt> Edward Rutlidge, <em>Thomas Heyward</em>, Thomas Lynch</dt>
+</dl>
+
+
+<!--Start of my page footer -->
+
+<footer> 
+    <p> &copy; 2024 | Carli Collins &bull; Email: Noneyabuisness </p>
+</footer>
+
+</body>
+</html>
