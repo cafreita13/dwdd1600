@@ -1,0 +1,116 @@
+/*---  this is my css page ---*/
+
+body {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 16px; 
+    font-weight:300;
+    margin: 0;
+}
+
+/*--- this is where i format the header ---*/
+header {
+background-color:#eaeaea;
+padding: 1rem 2vw; 
+}
+header p{
+    letter-spacing: .5px;
+}
+header h1, p{ margin: 0;
+    color: #024873;
+}
+
+/*--- this is where i format the navigation ---*/
+nav { 
+    background: #f2b705;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #024873;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav a:hover {
+    color: white;
+}
+nav li.active a{ 
+    background-color: #024873;
+    color: #f2b705; 
+}
+
+
+/*--- this is where i format main section  ---*/
+
+main {
+    padding: 1rem 2vw;
+}main h1 {
+    color: #b40412; 
+}
+
+main h2 {
+    color: #024873;
+}
+
+main p{
+    color: #2f3133;
+    margin: 0 0 .3rem 0
+}
+
+main ol { 
+    padding: .5rem 3vw;
+    background-color: #efefef; 
+}
+
+main dl dt{
+    color: #b40412; 
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #024873; 
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: lower-roman;
+}
+
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+}
+
+
+main address { 
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem; 
+    width: 12.5rem ;
+    border: 3px solid #024873;
+    border-radius: .8rem;
+}
+
+/*--- this is where i format the footer ---*/
+
+footer {
+    background-color: #eaeaea;
+    text-align: center;
+    color: #024873;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a{ 
+    color:#024873; 
+}
+
+
