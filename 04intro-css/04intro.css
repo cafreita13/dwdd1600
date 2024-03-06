@@ -1,0 +1,137 @@
+/* this is my css page */
+body {
+    font-family: 'Kalnia', serif;
+    font-size: 16px; 
+    font-weight:300;
+    margin: 0;
+}
+
+/*this is where i format the header */
+header {
+    background-color: #F17A13;
+    padding: 1rem 2vw; 
+    }
+
+header h1 { 
+    margin: 0;
+    color: #Fafdf3;
+}
+header p { 
+    margin: 0;
+    color: #Fafdf3;
+    letter-spacing: .5px ;
+}
+
+
+/* this is where i format the navigation */
+nav { 
+    background-color: #F7C727;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #Fafdf3;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav a:hover{
+    color: #024873;
+}
+nav li.active { 
+    background-color: #F7C727;
+    color: #Fafdf3; 
+}
+
+
+
+/* this is where i format main section */
+
+
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #024873; 
+}
+
+main h2 {
+    color:#024873;
+    margin-bottom: .2rem;
+}
+
+main p{
+    color: black;
+    margin: 0 0 .3rem 0
+}
+
+main ol { 
+    padding: .5rem 3vw;
+    background-color: #F0F2F1; 
+}
+
+main dl dt{
+    color: #ff19e4; 
+    font-weight: 700;
+}
+
+main dl dd {
+    color: #024873; 
+    font-size: .9rem;
+}
+
+main ul {
+    list-style-type: circle;
+}
+
+main ul {
+    list-style-type: lower-roman;
+}
+
+
+main ul li{
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .7rem;
+    color: #024873
+}
+
+
+main address { 
+    font-style: normal;
+    background-color: #F7C727;
+    padding: .5rem; 
+    width: 12.5rem ;
+    border: 3px solid #D7064F;
+    border-radius: .8rem;
+}
+
+main a{
+    color: #024873;
+
+}
+main a:hover{
+    color: #F7C727; 
+}
+
+
+/* this is where i format the footer */
+
+footer {
+    background-color: #F17A13;
+    text-align: center;
+    color: #Fafdf3;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a{ 
+    color: #024873; 
+}
