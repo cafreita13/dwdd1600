@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta name="author" content="Carli Collins">
+        <meta name="how to bake" content=" baking recipies">
+        <meta name="following a recipie" content="recipie"> 
+        <Title> Carli's Kitchen </Title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+        <link rel="stylesheet" href="04intro.css">  
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Kalnia:wght@100..700&display=swap" rel="stylesheet">
+    </head>
+    
+<!-- about page header-->
+<body>
+    <header> 
+        <h1> About </h1>
+    </header>
+</body>
+<!--Start of my navigation page -->
+<nav>
+    <ul> 
+        <li class="active"> <a href="index.html"> Home </a></li>
+        <li class="active"> <a href="recipies_files.html"> Recipies </a></li>
+        <li class="active"> <a href="gallery.html"> Gallery </a></li>
+        <li class="active"> <a href="about.html"> About </a></li>
+        <li class="active"> <a href="order.html"> Ordering </a> </li>
+    </ul>
+</nav> 
+
+<!--Start of my body of about page -->
+<main>
+<h1> Place an Order </h1>
+<form method="get" class="myform" action="thanks.html">
+
+<fieldset> 
+    <legend> Customer Information </legend>
+    <label>First name*<input type="text" name="fname" required></label>
+    <label>Last name*<input type="text" name="lname" required></label>
+    <label>Cell Number*<input type="tel" name="phone" required></label>
+</fieldset>
+
+<fieldset> 
+    <legend> Delivery Method </legend>
+    <label> <input type="radio" name="method" value="Delivery"> Delivery (1 hr) (Free) </label>
+    <label> <input type="radio" name="method" value="Pick Up"> Pick Up (30 minutes) </label>
+    <label> <input type="radio" name="method" value="Delivery"> Long Distance Delivery (2 hr+) (Price dependant on milage) </label>
+</fieldset>
+
+<fieldset> 
+    <Legend> Delivery Options </Legend>
+    <label><input type="checkbox" name="method" value="home"> Home </label>
+    <label><input type="checkbox" name="method" value="wedding venue"> Wedding Venue </label>
+    <label><input type="checkbox" name="method" value="workplace"> Workplace </label>
+    <label><input type="checkbox" name="method" value="Other"> Other </label>
+</fieldset>
+
+<fieldset> 
+    <Legend> Pick Your Favorites </Legend>
+    <label><input type="checkbox" name="method" value="chocolate chip cookies"> 1 dozen Chocolate Chip Cookies </label>
+    <label><input type="checkbox" name="method" value="chocolate chip cookies"> half dozen Chocolate Chip Cookies </label>
+    <label><input type="checkbox" name="method" value="doughnuts"> 1 dozen doughnuts </label>
+    <label><input type="checkbox" name="method" value="cupcakes"> 1 dozen Cupcakes </label>
+    <label><input type="checkbox" name="method" value="wedding cake"> Wedding Cake (2 day notice) </label>
+</fieldset>
+
+<fieldset> 
+    <legend> Preferred Delivery Time </legend>
+    <select> name="time" 
+        <option value="none">Please select</option>
+        <option value="morning"> Between 7:00 am and 10:30 am </option>
+        <option value="noon"> Between 11:00 am and 1:30 pm </option>
+        <option value="afternoon"> Between 2:00 pm and 5:30 pm </option>
+        <option value="evening"> Between 5:30 pm and 9:00 pm </option>
+    </select>
+</fieldset>
+
+<label> Comments: <textarea name="comments"> Please add any specail instructions </textarea></label>
+
+<input type="submit" value="Place Order">
+</form>
+
+</main>
+
+<!--Start of my footer -->
+<footer> 
+    <p> &copy; 2024 | Carli Collins &bull; Email: Sampleemail@gmail.com </p>
+</footer>
+</body>
+</html>
