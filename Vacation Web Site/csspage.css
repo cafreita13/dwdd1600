@@ -1,0 +1,251 @@
+/*prevent problems with different browswers*/
+*{box-sizing: border-box;}
+
+/* this is my css page */
+body {
+    font-family: 'Kalnia', serif;
+    font-size: 16px; 
+    font-weight:300;
+    margin: 0;
+}
+
+
+/*this is where i format the header */
+header {
+    background-color: #BAD7F2;
+    padding: 1rem 2vw; 
+    display: flex;
+    align-items: flex-end;
+}
+
+header div, header{
+    padding: 1vw;
+    color: #Fafdf3;
+    text-align: right;
+}
+
+body div header p{ 
+    margin: 0;
+    color: #Fafdf3;
+    letter-spacing: .5px ;
+    padding: .2rem 2vw;
+    text-align: right;
+}
+
+
+
+
+/*formatting the naviagtion*/
+
+@media only screen and (max-width: 800px) {
+    nav ul li{ 
+        margin: 0;
+        padding: 0 2vw;
+        list-style-type: none;
+    }
+    nav a{
+        display: block;
+        padding: .8rem;
+        text-decoration: none;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        border-bottom: solid 2px #Fafdf3;
+        color: #2B59C3;
+    }
+     nav .active a{
+        background-color: #Fafdf3;
+        background-image: linear-gradient(to bottom, #F7C727,#f7c727ba);
+        color: #Fafdf3;
+    }
+    
+    } /* end of the SMALL media queries*/ 
+    
+    
+    
+    
+    /* this is where i format LARGE screen devices */
+    @media only screen and (min-width: 801px) {
+        nav { 
+            background-color: #F7C727;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0 2vw;
+            margin: 0;
+            display: flex;
+        }
+        nav a{
+            text-decoration: none;
+            font-size: 1.1rem;
+            color: #Fafdf3;
+            font-weight: 700;
+            display: block;
+            padding: .83rem 2rem;
+        }
+        
+        nav a:hover{
+            color: #2B59C3;
+        }
+        nav li.active { 
+            background-color: #F7C727;
+            color: #Fafdf3; 
+        }    
+    } /* end of the media queries*/ 
+
+
+
+/* this is where I format the photos*/
+figure.wrapped{
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img {
+    width: 100%;
+    height: auto;
+}
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .75rem;
+    color: #024873;
+    font-weight: 800;
+}
+
+div.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+ div.gallery figure{
+    margin: .5rem 2% 0 0;
+ }
+ div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #024873 ;
+ }
+
+div.gallery img {
+        width: 100%;
+        height: auto;
+}
+
+div.gallery img:hover {
+    box-shadow: 0px 0px 3px #f7c727a1;
+}
+
+
+/* this is where i format main section */
+    main{ 
+        padding: 1rem 2vw;
+    }
+
+    main h1 {
+        color: #2B59C3; 
+    }
+    
+    main h2 {
+        color:#2B59C3;
+        margin-bottom: .2rem;
+    }
+    
+
+
+
+/* this is where i format images section */
+    figure.wrapped{
+        width: 30%;
+        margin: 0 0 0 2%;
+        float: right;
+    }
+    figure.wrapped img {
+        width: 100%;
+        height: auto;
+    }
+    figure.wrapped figcaption {
+        text-align: center;
+        font-size: .75rem;
+        color: #024873;
+        font-weight: 800;
+    }
+    
+    div.gallery {
+        display: flex;
+        flex-wrap: wrap;
+    }
+     div.gallery figure{
+        margin: .5rem 2% 0 0;
+     }
+     div.gallery figcaption {
+        text-align: center;
+        font-size: .8rem;
+        color: #024873 ;
+     }
+    
+    div.gallery img {
+            width: 100%;
+            height: auto;
+    }
+    
+    div.gallery img:hover {
+        box-shadow: 0px 0px 3px #f09a50;
+    }
+    
+
+    .hero img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .hero {
+        width: 100%;
+        margin: 0;
+    }
+
+    .hero img {
+        padding: 1rem 16vw;
+    }
+ 
+
+
+
+    div.hero img figcaption {
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* this is where i format the footer */
+
+footer {
+    background-color: #BAD7F2;
+    text-align: center;
+    color: #Fafdf3;
+    padding: 1rem 0;
+    font-size: .8rem;
+}
+
+footer a{ 
+    color: #024873; 
+}
+
+header, nav, main, footer {
+    max-width: 64rem;
+    margin: 0 auto;
+}
